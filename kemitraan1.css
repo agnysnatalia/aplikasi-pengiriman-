@@ -1,0 +1,384 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: century gothic;
+}
+
+body {
+    background-color: grey;
+    z-index: 1;
+}
+
+
+
+/*ini navbar*/
+.bar
+{
+    background: linear-gradient(to right, #000000,#ffffff );
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 9999;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bar .tulisan
+{
+    background-color:rgba(0, 0, 0, 0);
+    width : 20%;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.bar .tulisan a 
+{
+    color: white;
+}
+.bar .search
+{
+     background-color:rgba(0, 0, 0, 0);
+    width : 20%;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.bar .kotak
+{
+    background-color:rgba(0, 0, 0, 0);
+    width : 58%;
+    height: 60px;
+    line-height: 70px;
+    margin: 0 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: right;
+}
+
+.bar .kotak ul li
+{
+        display: inline-block;
+        margin: 0 5px;
+}
+.bar .kotak ul li a
+{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.bar .kotak ul li a:hover
+{
+    background-color: white;
+    border-radius: 3px;
+}
+.bar .search button
+{
+    width: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.bar .search input
+{
+    border-radius: 5px;
+    padding: 0 2px;
+}
+.bar .search button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*ini kontener*/
+
+.kontener
+{
+    margin: 80px auto;
+    width: 900px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.kontener .judul
+{
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 2px auto;
+}
+.kontener .judul h1
+{
+    font-family: sans-serif;
+}
+.kontener .visi
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.kontener .visi .panah
+{
+    width: 200px;
+    box-sizing: border-box;
+    margin: 5px auto; 
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+}
+.kontener .visi .panah1
+{
+    width: 220px;
+    box-sizing: border-box;
+    margin: 5px auto;
+    text-align: center; 
+    display: flex;
+    justify-content: space-between;  
+}
+.kontener .visi .panah h1
+{
+    color: white;
+    margin: 25px auto;
+}
+.kontener .visi .panah1 h1
+{
+    color: white;
+    margin: 25px auto;
+}
+
+.paragraf
+{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center ;
+}
+.paragraf p
+{
+    margin: 5px 8px;
+}
+.konten 
+{
+    width: 100%;
+    margin: 1px auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.konten1 
+{
+    width: 100%;
+    margin: 1px auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.konten p
+{
+    margin: 20px;
+}
+.konten1 p
+{
+    margin: 20px;
+}
+.konten .terpercaya
+{
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    background-color: white;
+    background-size: auto;
+}
+.konten .investasi
+{
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    background-color: white;
+    background-size: auto;
+    width: 200px;
+    text-align: center;
+}
+.konten .mudah
+{
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    background-color: white;
+    background-size: auto;
+}
+.konten1 .komisi
+{
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    background-color: white;
+    background-size: auto;
+}
+.konten1 .latihan
+{
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    background-color: white;
+    background-size: auto;
+}
+.konten1 .pickup
+{
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    background-color: white;
+    background-size: auto;
+}
+.mitra
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid lightgrey;
+    border-radius: 30px;
+    background-color: lightgrey;
+    background-size: auto;
+    
+}
+.mitra .mitra1
+{
+    width: 50%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 20px;
+     background-color: white;
+    background-size: auto;
+   
+}
+.mitra .mitra1 p
+{
+    margin: 8px 15px;
+}
+.mitra .mitra2
+{
+    width: 100%;
+    margin: 50px auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.mitra .mitra3
+{
+    width: 100%;
+    margin: 50px auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.mitra .mitra2 p
+{
+    margin: 10px 50px;
+}
+ .mitra .mitra3 p
+{
+    margin: 10px 60px;
+}
+.syarat
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 2px solid lightgrey;
+    border-radius: 30px;
+    background-color: lightgrey;
+    background-size: auto;
+    
+}
+.syarat .syarat1
+{
+    width: 35%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    background-size: auto;
+}
+.syarat .syarat2
+{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+.syarat .syarat1 p
+{
+    margin: 10px 50px;
+}
+.syarat .syarat2 p
+{
+    margin: 10px 50px;
+}
+
+
+ 
+/*ini footer*/
+.footer
+{
+    width: 100%; 
+    background-color: white;
+    color: #000;
+    text-align: center;
+    display: flex;
+}
+.footer .alamat
+{
+    margin: 5px;
+    width: 25%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.footer .alamat p
+{
+    font-weight: bold;
+}
+.footer .alamat1
+{
+    margin: 5px;
+    width: 25%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.footer .alamat1 h1
+{
+    margin: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+footer
+{
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+}

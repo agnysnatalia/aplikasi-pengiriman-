@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: century gothic;
+}
+
+body {
+    background-color: grey;
+    z-index: 1;
+}
+
+
+
+/*ini navbar*/
+.bar
+{
+    background: linear-gradient(to right, #000000,#ffffff );
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 9999;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bar .tulisan
+{
+    width : 20%;
+    height: 60px;
+    line-height: 60px;
+    margin: 2px 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.bar .tulisan a 
+{
+    color: white;
+}
+.bar .search
+{
+    width : 20%;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.bar .kotak
+{
+    width : 58%;
+    height: 60px;
+    line-height: 70px;
+    margin: 0 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: right;
+}
+
+.bar .kotak ul li
+{
+        display: inline-block;
+        margin: 0 5px;
+}
+.bar .kotak ul li a
+{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.bar .kotak ul li a:hover
+{
+    background-color: white;
+    border-radius: 3px;
+}
+.bar .search button
+{
+    width: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.bar .search input
+{
+    border-radius: 5px;
+    padding: 0 2px;
+}
+.bar .search button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*ini kontener*/
+.kontener
+{
+    margin: 80px auto;
+    width: 900px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.kontener .gambar
+{
+    margin: 2px auto;
+    width: 80%;
+    text-align: center;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.kontener .gambar img
+{
+    width: 100%;
+}
+.kontener .fitur 
+{
+    width: 100%; 
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.kontener .fitur form
+{
+    width: 100%; 
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.kontener .fitur form .resi  
+{
+    
+    margin: 10px auto;
+    width: 50%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.kontener .fitur form .resi2  
+{
+    
+    margin: 10px auto;
+    width: 50%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.kontener .fitur form .resi  h1,
+.kontener .fitur form .resi2  h1
+{
+    background-color: white;
+}
+
+.kontener .fitur form .resi input,
+.kontener .fitur form .resi2 input
+{
+    padding: 0 2px;
+}
+
+#uwu1 {
+    width: 46px;
+}
+
+#uwu2 {
+    width: 63px; 
+}
+
+#uwu3 {
+    width: 84px;
+}
+.kontener .fitur form .resi input
+{
+    width: 90%;
+}
+.kontener .fitur form .resi button,
+.kontener .fitur form .resi2 button
+{
+    width: 80px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.kontener .fitur form .resi button:hover,
+.kontener .fitur form .resi2 button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;   
+}
+
+/*ini footer*/
+.footer
+{
+    width: 100%; 
+    background-color: white;
+    color: #000;
+    text-align: center;
+    display: flex;
+}
+.footer .alamat
+{
+    margin: 5px;
+    width: 25%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.footer .alamat p
+{
+    font-weight: bold;
+}
+.footer .alamat1
+{
+    margin: 5px;
+    width: 25%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.footer .alamat1 h1
+{
+    margin: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+footer
+{
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+}
